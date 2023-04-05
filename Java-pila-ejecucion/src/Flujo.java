@@ -12,9 +12,7 @@ public class Flujo {
 	}
 	private static void metodo2() {
 		System.out.println("inicio metodo 2");
-		for(int i = 1;i <=3; i++) {
-			System.out.println(i);
-		}
-		System.out.println("fin metodo2");
+		throw new ArithmeticException("surgio error");
+	
 	}
 }
