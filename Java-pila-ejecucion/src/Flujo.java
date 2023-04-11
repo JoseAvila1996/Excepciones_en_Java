@@ -7,7 +7,7 @@ public class Flujo {
 	}
 	public static void metodo1() {
 		System.out.println("Inicio metodo1");
-		try {
+		try {				//try sirve para detectar un error y catch si llega a ocurrir que hacer o imprimir y dejarlo continuar si asi se requiere
 			metodo2();
 			
 		} catch (MyException me) {
